@@ -1,0 +1,8 @@
+import b2boost.Partner
+
+model {
+	Iterable<Partner> partnerList
+}
+
+json tmpl.partner(partnerList ?: [])
+

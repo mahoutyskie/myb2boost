@@ -1,0 +1,7 @@
+import b2boost.Partner
+
+model {
+	Partner partner
+}
+
+json tmpl.partner(partner)

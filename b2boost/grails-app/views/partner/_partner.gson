@@ -1,0 +1,7 @@
+import b2boost.Partner
+
+model {
+	Partner partner
+}
+
+json g.render(partner)
