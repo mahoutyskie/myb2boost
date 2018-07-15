@@ -21,7 +21,7 @@ class PartnersController extends RestfulController<Partner> {
         def result
         try{
             from = from ? from : 0
-            size = size ? size : 2
+            size = size ? size : 10
             result = partnersService.b2SearchByParams(from, size)
         } catch (Exception e){
             internalError()
