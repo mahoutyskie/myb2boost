@@ -1,4 +1,4 @@
-# **Grails REST API b2boost Partners technical test**
+# **Grails REST API b2boost Partners**
 
 ## environment used
 1. Grails Version: 3.2.8
